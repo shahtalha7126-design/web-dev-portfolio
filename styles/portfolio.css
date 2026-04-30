@@ -131,6 +131,7 @@ header{
 .common-title{
     font-weight: bold;
     font-size: 35px;
+    text-align:center;
 }
 .skills-container{
     display: flex;
@@ -141,4 +142,21 @@ header{
     text-align: left;
     border-radius: 5px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+/* STYLES FOR RESUME SECTION */
+.education-container{
+    /* display: flex; */
+}
+.experience-container{
+    /* display:flex; */
+}
+.resume-column{
+    display:flex;
+    gap: 40px;
+}
+.education, .experience, h5, p {
+    color: rgba(117, 117, 117, 1);
+}
+.cv-button{
+    text-align:center;
 }
