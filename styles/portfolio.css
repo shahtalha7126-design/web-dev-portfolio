@@ -160,3 +160,24 @@ header{
 .cv-button{
     text-align:center;
 }
+/* styles for footers */
+footer{
+    display:flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+.footer-column{
+    width: 50%;
+}
+
+form, button, input{
+    display:block;
+    margin-bottom: 24px;
+}
+input , textarea{
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
